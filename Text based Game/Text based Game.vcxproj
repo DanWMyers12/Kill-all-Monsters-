@@ -116,9 +116,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="game.cpp" />
+    <ClCompile Include="battle.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="monsterstats.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="battle.h" />
+    <ClInclude Include="Object.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
